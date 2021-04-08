@@ -20,10 +20,10 @@ The application triggers at sun-related time points. This allows to implement sw
 
 |Name|Type|Description|Required|
 |----|----|-----------|--------|
-|**latitude**|`number`||no|
+|**latitude**|`number`|Choose a location<br/>|no|
 |**longitude**|`number`||no|
-|**height**|`number`|Höhe in Metern über Normalnull<br/>|no|
-|**timepoint**|`string`|Default: `"sunrise"`<br/>Enum: `"sunrise"`, `"sunriseEnd"`, `"goldenHourEnd"`, `"solarNoon"`, `"goldenHour"`, `"sunsetStart"`, `"sunset"`, `"dusk"`, `"nauticalDusk"`, `"night"`, `"nadir"`, `"nightEnd"`, `"nauticalDawn"`, `"dawn"`, `"customMorning"`, `"customEvening"`<br/>|no|
+|**height**|`number`|Above see level<br/>|no|
+|**timepoint**|`string`|The following sun-related times can be selected<br/>Default: `"sunrise"`<br/>Enum: `"sunrise"`, `"sunriseEnd"`, `"goldenHourEnd"`, `"solarNoon"`, `"goldenHour"`, `"sunsetStart"`, `"sunset"`, `"dusk"`, `"nauticalDusk"`, `"night"`, `"nadir"`, `"nightEnd"`, `"nauticalDawn"`, `"dawn"`, `"customMorning"`, `"customEvening"`<br/>|no|
 |**custom\_angle**<br/>(angle)|`number`|Define an angel for custom time points:<br/><br/>**Dawn**: `-6`<br/>**Sunrise**: `-0.833`<br/>**Morning golden hour**: `6`.<br/>Minimum: `-90`<br/>Maximum: `90`<br/>|no|
 
 **Additional Properties:** not allowed<br/>

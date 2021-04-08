@@ -9,6 +9,8 @@
 			"type": "number",
 			"title": "latitude",
 			"title_de": "Breitengrad",
+			"description": "Choose a location",
+			"description_de": "Wählen Sie einen Ort",
 			"examples": [ 52.51872463625155 ]
 		},
 		"longitude": {
@@ -19,10 +21,10 @@
 		},
 		"height": {
 			"type": "number",
-			"titel": "Height",
-			"titel_de": "Höhe",
-			"description": "Höhe in Metern über Normalnull",
-			"description_de": "Above see level",
+			"title": "Height",
+			"title_de": "Höhe",
+			"description": "Above see level",
+			"description_de": "Höhe in Metern über Normalnull",
 			"unit": "m",
 			"examples": [ 0 ]
 		},
@@ -30,6 +32,8 @@
 			"type": "string",
 			"title": "time point",
 			"title_de": "Zeitpunkt",
+			"description": "The following sun-related times can be selected",
+			"description_de": "Folgende sonnenbezogene Zeitpunkte können gewählen werden",
 			"enum": [
 				"sunrise",
 				"sunriseEnd",
