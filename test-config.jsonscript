@@ -1,0 +1,10 @@
+#!/usr/bin/env -P .:osiota:../osiota:../../osiota:../../../osiota osiota --config
+{
+	"app": [{
+		"name": "suncalc",
+		"config": {
+			"node": "/Timer",
+			"field": "dawn"
+		}
+	}]
+}
