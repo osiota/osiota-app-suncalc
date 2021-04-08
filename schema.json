@@ -1,0 +1,101 @@
+{
+	"type": "object",
+	"title": "osiota application sun position",
+	"gui_title_de": "Sonnenstand",
+	"description": "The application triggers at sun-related time points. This allows to implement switching functions e.g. at sunrise or sunset.",
+	"description_de": "Die Anwendung löst Ereignisse zu sonnenbezogene Zeitpunkten aus. Damit lassen sich Schaltfunktionen z.B. zum Sonnenauf- oder -untergang umsetzen.",
+	"properties": {
+		"latitude": {
+			"type": "number",
+			"title": "latitude",
+			"title_de": "Breitengrad",
+			"examples": [ 52.51872463625155 ]
+		},
+		"longitude": {
+			"type": "number",
+			"title": "longitude",
+			"title_de": "Längengrad",
+			"examples": [ 13.376219384358473 ]
+		},
+		"height": {
+			"type": "number",
+			"titel": "Height",
+			"titel_de": "Höhe",
+			"description": "Höhe in Metern über Normalnull",
+			"description_de": "Above see level",
+			"unit": "m",
+			"examples": [ 0 ]
+		},
+		"timepoint": {
+			"type": "string",
+			"title": "time point",
+			"title_de": "Zeitpunkt",
+			"enum": [
+				"sunrise",
+				"sunriseEnd",
+				"goldenHourEnd",
+				"solarNoon",
+				"goldenHour",
+				"sunsetStart",
+				"sunset",
+				"dusk",
+				"nauticalDusk",
+				"night",
+				"nadir",
+				"nightEnd",
+				"nauticalDawn",
+				"dawn",
+				"customMorning",
+				"customEvening"
+			],
+			"enum_titles": [
+				"sunrise",
+				"sunrise ends",
+				"morning golden hour",
+				"solar noon",
+				"evening golden hour",
+				"sunset starts",
+				"sunset",
+				"dusk",
+				"nautical dusk",
+				"night starts",
+				"nadir",
+				"night ends",
+				"nautical dawn",
+				"dawn",
+				"custom morning",
+				"custom evening"
+			],
+			"enum_titles_de": [
+				"Sonnenaufgang",
+				"Sonnenaufgang (Ende)",
+				"Morgendliche goldene Stunde",
+				"Höchster Sonnenstand (Mittag)",
+				"Goldene Stunde",
+				"Sonnenuntergang (Beginn)",
+				"Sonnenuntergang",
+				"Abenddämmerung",
+				"Nautische Abenddämmerung",
+				"Beginn der Nacht",
+				"Tiefster Sonnenstand (Nadir)",
+				"Ende der Nacht",
+				"Nautische Morgendämmerung",
+				"Morgendämmerung",
+				"Benutzerdefiniert (Vormittags)",
+				"Benutzerdefiniert (Nachmittags)"
+			],
+			"default": "sunrise"
+		},
+		"custom_angle": {
+			"type": "number",
+			"title": "angle",
+			"title_de": "Winkel",
+			"description": "Define an angel for custom time points:\n\n**Dawn**: `-6`<br/>**Sunrise**: `-0.833`<br/>**Morning golden hour**: `6`.",
+			"description_de": "Für benutzerdefinierte Zeitpunkte definiere einen Winkel:\n\n**Morgendämmerung**: `-6`<br/>**Sonnenaufgang**: `-0.833`<br/>**Morgendliche folgene Stunde**: `6`",
+			"minimum": -90,
+			"maximum": 90
+		}
+	},
+	"required": [],
+	"additionalProperties": false
+}

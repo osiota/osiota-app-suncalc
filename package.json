@@ -1,0 +1,21 @@
+{
+  "name": "osiota-app-suncalc",
+  "version": "1.0.0",
+  "description": "The application triggers at sun-related time points",
+  "main": "index.js",
+  "author": "Simon Walz and others",
+  "license": "MIT",
+  "dependencies": {
+    "suncalc": "^1.8.0"
+  },
+  "devDependencies": {
+    "osiota-dev": "^1.x"
+  },
+  "scripts": {
+    "doc": "osiota-dev-doc-jsonschema --schema schema.json --app $npm_package_name"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osiota/osiota-app-suncalc.git"
+  }
+}
