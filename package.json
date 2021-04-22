@@ -1,6 +1,6 @@
 {
   "name": "osiota-app-suncalc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The application triggers at sun-related time points",
   "main": "index.js",
   "author": "Simon Walz and others",
