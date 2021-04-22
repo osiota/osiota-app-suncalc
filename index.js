@@ -20,7 +20,7 @@ exports.init = function(node, app_config, main) {
 	if (typeof app_config.timepoint === "string") {
 		timepoint = app_config.timepoint;
 	}
-	if (timepoint === "customMoring") {
+	if (timepoint === "customMorning") {
 		timepoint = "_" + this._id;
 		if (typeof app_config.custom_angle === "number") {
 			SunCalc.addTime(app_config.custom_angle,
