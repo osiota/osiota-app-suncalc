@@ -94,8 +94,8 @@
 			"type": "number",
 			"title": "angle",
 			"title_de": "Winkel",
-			"description": "Define an angel for custom time points:\n\n**Dawn**: `-6`<br/>**Sunrise**: `-0.833`<br/>**Morning golden hour**: `6`.",
-			"description_de": "Für benutzerdefinierte Zeitpunkte definiere einen Winkel:\n\n**Morgendämmerung**: `-6`<br/>**Sonnenaufgang**: `-0.833`<br/>**Morgendliche folgene Stunde**: `6`",
+			"description": "Define an angel for custom time points:\n\n**Dawn/Dusk**: `-6`<br/>**Sunrise/Sunset**: `-0.833`<br/>**Morning/Evening golden hour**: `6`.",
+			"description_de": "Für benutzerdefinierte Zeitpunkte definiere einen Winkel:\n\n**Morgen- / Abenddämmerung**: `-6`<br/>**Sonnenaufgang / -untergang**: `-0.833`<br/>**Morgendliche/Abendliche goldene Stunde**: `6`",
 			"minimum": -90,
 			"maximum": 90
 		}
