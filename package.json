@@ -6,7 +6,7 @@
   "author": "Simon Walz and others",
   "license": "MIT",
   "dependencies": {
-    "suncalc": "^2.0.1"
+    "suncalc": "^2.1.1"
   },
   "devDependencies": {
     "osiota-dev": "^1.x"
